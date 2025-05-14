@@ -1,0 +1,195 @@
+
+/*整体*/
+html{
+    padding: 12px!important;
+	font-size: 82%;
+}
+table >tr, table >tr >td{
+	height: 28px;
+}
+/*启用颜色*/
+body .far.green, html.dark .far.green  {
+    color: #00B42A !important;
+}
+/*开关颜色*/
+.enabler.enabler_enabled .far.on, .enabler.enabler_middle .far.onf {
+    display: inline-block;
+    color: #00B42A !important ;
+	margin-top: 2px;
+}
+/*开关大小放大2号*/
+.fa-toggle-on:before {
+    font-size: 16px;
+}
+/*图标大小*/
+.far {
+    font-size: 14px !important;
+    line-height: 1.1;
+}
+/*每块间隔*/
+.actionregion {
+    margin-bottom: 8px;
+}
+/*去掉底部*/
+table#table_Ym90dG9tX3VuZGVmaW5lZA {
+    margin: 0;
+}
+
+/*模块间距*/
+table.actiontable {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+	box-shadow: 0px 16px 24px 0px rgba(0, 0, 0, 0.06), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 0px 1px 0px rgba(0, 0, 0, 0.04);
+}
+/*整体宽度*/
+.actiontable td {
+    max-width: 800px !important;
+}
+/*去掉多余秒描边*/
+/*01块*/
+table#table_YWN0aW9udGFibGUtZW5hYmxlZF91bmRlZmluZWQ {
+    border: 0;
+}
+/*02块*/
+table#table_YWN0aW9udGFibGUtc2NyaXB0c191bmRlZmluZWQ {
+	border: 0;
+}
+/*03块*/
+table#table_YWN0aW9udGFibGUtc2NyaXB0c19uZXdfdW5kZWZpbmVk {
+    border: 0;
+}
+/*04块*/
+table#table_YWN0aW9udGFibGUtYWJvdXRfdW5kZWZpbmVk {
+    border: 0;
+}
+/*05块*/
+table#table_YWN0aW9udGFibGUtYWJvdXRfdW5kZWZpbmVk {
+    border: 0;
+}
+/*插件列表*/
+tr#tr_c2NyaXB0c19zY3JpcHRz_outer {
+    display: table;
+    margin-bottom: 8px;
+	width: 100%;
+}
+/*获取新脚本*/
+tr#tr_c2NyaXB0c19uZXdfc2NyaXB0c19uZXc_outer {
+    display: table;
+    margin-bottom: 8px;
+    width: 100%;
+}
+/*捐助及实用工具*/
+tr#tr_Y29tbWFuZHNfY29tbWFuZHM_outer {
+    display: table;
+    width: 100%;
+}
+/*已开启鼠标经过*/
+.actiontable>tr:first-child:hover {
+   background:#e4f2ff !important;
+}
+/*内容鼠标经过*/
+.actiontable>tr:hover {
+   background:#e4f2ff;
+}
+/*二级设置类*/
+.moremenu>tr:not(.script):not(.moremenu_toggle) {
+    background-color: transparent !important;
+}
+/*工具下拉*/
+.show_moremenu.moremenu>tr:not(.script):not(.moremenu_toggle) {
+
+    border-radius: 200px;
+    width: 100%;
+    padding: 0 8px;
+}
+/*插件设置图标*/
+.fa-cogs:before {
+    content: "\f013";
+}
+.moremenu>tr>td>.far{
+	width: 1.2em;
+    max-width: 1.3em;
+    min-width: 1.3em;
+    padding-left: 1.8em;
+    font-size: 12px !important;
+    line-height: 12px;
+}
+td#td_nijld19jb21tYW5kcw_mm_outer_td1{
+position: relative;
+	
+}
+/*脚本图标*/
+.icon16 {
+    border-radius: 4px;
+}
+/*实用工具对齐*/
+div#div_nijld19jb21tYW5kcw_mmname {
+    margin-left: 4px;
+}
+/*实用工具添加图标*/
+td#td_nijld19jb21tYW5kcw_mm_outer_td1:before {
+content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 7px;
+    left: 10px;
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgZmlsbD0ibm9uZSI+PHBhdGggc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjEuMiIgZD0iTTUuMjUgMS43NUgyLjMzM2EuNTgzLjU4MyAwIDAgMC0uNTgzLjU4M1Y1LjI1YzAgLjMyMi4yNjEuNTgzLjU4My41ODNINS4yNWEuNTgzLjU4MyAwIDAgMCAuNTgzLS41ODNWMi4zMzNhLjU4My41ODMgMCAwIDAtLjU4My0uNTgzWk01LjI1IDguMTY2SDIuMzMzYS41ODMuNTgzIDAgMCAwLS41ODMuNTgzdjIuOTE3YzAgLjMyMi4yNjEuNTgzLjU4My41ODNINS4yNWEuNTgzLjU4MyAwIDAgMCAuNTgzLS41ODNWOC43NDlhLjU4My41ODMgMCAwIDAtLjU4My0uNTgzWk0xMS42NjYgMS43NUg4Ljc0OWEuNTgzLjU4MyAwIDAgMC0uNTgzLjU4M1Y1LjI1YzAgLjMyMi4yNjEuNTgzLjU4My41ODNoMi45MTdhLjU4My41ODMgMCAwIDAgLjU4My0uNTgzVjIuMzMzYS41ODMuNTgzIDAgMCAwLS41ODMtLjU4M1pNMTEuNjY2IDguMTY2SDguNzQ5YS41ODMuNTgzIDAgMCAwLS41ODMuNTgzdjIuOTE3YzAgLjMyMi4yNjEuNTgzLjU4My41ODNoMi45MTdhLjU4My41ODMgMCAwIDAgLjU4My0uNTgzVjguNzQ5YS41ODMuNTgzIDAgMCAwLS41ODMtLjU4M1oiLz48L3N2Zz4=");
+}
+
+/*=================暗黑模式======================*/
+/*整体*/
+html.dark {
+background-color: #2a2a2a;
+
+}
+/*鼠标经过*/
+
+.dark .actiontable>tr:first-child:hover {
+   background: #4c4c4c !important;
+}
+.dark .actiontable>tr:hover {
+     background: #4c4c4c !important;
+}
+.dark .scripttable tr, .dark .section, .dark .actiontable {
+    background-color: #444;
+		border-width: 5px 0 0 0;
+}
+/*实用工具添加图标*/
+.dark td#td_nijld19jb21tYW5kcw_mm_outer_td1:before {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgZmlsbD0ibm9uZSI+PHBhdGggc3Ryb2tlPSIjRTBFMEUwIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjEuMiIgZD0iTTUuMjUgMS43NUgyLjMzM2EuNTgzLjU4MyAwIDAgMC0uNTgzLjU4M1Y1LjI1YzAgLjMyMi4yNjEuNTgzLjU4My41ODNINS4yNWEuNTgzLjU4MyAwIDAgMCAuNTgzLS41ODNWMi4zMzNhLjU4My41ODMgMCAwIDAtLjU4My0uNTgzWk01LjI1IDguMTY2SDIuMzMzYS41ODMuNTgzIDAgMCAwLS41ODMuNTgzdjIuOTE3YzAgLjMyMi4yNjEuNTgzLjU4My41ODNINS4yNWEuNTgzLjU4MyAwIDAgMCAuNTgzLS41ODNWOC43NDlhLjU4My41ODMgMCAwIDAtLjU4My0uNTgzWk0xMS42NjYgMS43NUg4Ljc0OWEuNTgzLjU4MyAwIDAgMC0uNTgzLjU4M1Y1LjI1YzAgLjMyMi4yNjEuNTgzLjU4My41ODNoMi45MTdhLjU4My41ODMgMCAwIDAgLjU4My0uNTgzVjIuMzMzYS41ODMuNTgzIDAgMCAwLS41ODMtLjU4M1pNMTEuNjY2IDguMTY2SDguNzQ5YS41ODMuNTgzIDAgMCAwLS41ODMuNTgzdjIuOTE3YzAgLjMyMi4yNjEuNTgzLjU4My41ODNoMi45MTdhLjU4My41ODMgMCAwIDAgLjU4My0uNTgzVjguNzQ5YS41ODMuNTgzIDAgMCAwLS41ODMtLjU4M1oiLz48L3N2Zz4=");
+}
+
+/*=================设置列表======================*/
+.tv_container_fit {
+    top: 6.1em;
+}
+/*switch对齐*/
+.scripttable .enabler .far {
+    height: 1.3em;
+}
+/*图标*/
+.scripttable .script_icon .nameNicon16 {
+    padding: 0!important; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
